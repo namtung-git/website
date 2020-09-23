@@ -1,0 +1,31 @@
+
+/* Project SCSS */
+
+#project {
+    border: 1rem solid _palette(banner6);
+    box-shadow: 0 0 10px _palette(moss);
+    border-radius: 5px;
+
+    .project-image, .project-description {
+        &:hover {
+            cursor: default;
+        }
+    }
+
+    /* Other Overrides on Bootstrap Carousel SCSS */
+    .carousel-control-prev,
+    .carousel-control-next,
+    .carousel-indicators {
+        top: 110%;
+        bottom: initial;
+    }
+
+    .carousel-indicators {
+        margin: 0;
+        z-index: 0;
+
+        li {
+            width: 10px;
+        }
+    }
+}

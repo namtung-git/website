@@ -1,0 +1,190 @@
+
+/* Contact SCSS */
+
+#contact {
+	background-image: url("../images/contact-back.png");
+    background-size: cover;
+    background-position: bottom;
+	text-align: center;
+	padding: 5% 10%;
+	position: relative;
+	cursor: default;
+
+	p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	ul {
+		padding-left: 0;
+		margin-bottom: 5%;
+	}
+
+	li {
+		display: inline;
+		padding: 0 5px;
+	}
+
+	hr {
+		display: none;
+		color: _palette(gr-light);
+		width: 10%;
+		margin: 2% auto 2%;
+		opacity: 0.5;
+	}
+
+	.container-fluid {
+		padding: 0;
+	}
+
+	.front {
+		background-image: url("../images/contact-front.png");
+		background-size: cover;
+		background-position: bottom;
+		padding: 5% 5% 3%;
+		border-radius: 5px;
+		border: none;
+		box-shadow: 0 0 80px _palette(blk);
+		margin: 0;
+	}
+
+	.subtitle {
+		font-size: 1rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: _palette(accent7);
+	}
+
+	.title {
+		font-size: 3.5rem;
+		line-height: 1;
+		margin-bottom: 1rem;
+		opacity: 0.6;
+	}
+	
+	.email-button {
+		font-family: _font(code);
+		font-weight: 300;
+		color: _palette(accent7);
+		letter-spacing: 2px;
+		font-size: 0.9rem;
+		border-radius: 5px;
+		border: solid 1px _palette(accent7);
+		padding: 1% 2%;
+		margin-bottom: 10%;
+
+		&:hover {
+			background: _palette(banner6);
+		}
+	}
+
+	.content {
+		font-size: 1.1rem;
+		margin-bottom: 5%;
+		opacity: 0.6;
+		width: 55%;
+	}
+
+	.contact-social-icons {
+		display: none;
+	}
+
+	.claim {
+		font-size: 0.8rem;
+		font-family: _font(code);
+		font-weight: 200;
+		opacity: 0.6;
+		transition: 0.3s ease-in;
+
+		&:hover {
+			color: _palette(project1);
+			cursor: pointer;
+			opacity: 1;
+		}
+	}
+
+	.copyright {
+		position: absolute;
+		font-size: 0.7rem;
+		color: _palette(fg);
+		letter-spacing: 1px;
+		opacity: 0.5;
+		bottom: 3%;
+		left: 0;
+		right: 0;
+		margin-bottom: 0;
+	}
+
+	/* Contact Media Breakpoints */
+	@include breakpoint(large) {
+		.subtitle {
+			font-size: 0.9rem;
+		}
+	}
+
+	@include breakpoint(medium) {
+		.title {
+			font-size: 3rem;
+		}
+
+		.content {
+			font-size: 0.9rem;
+			margin-bottom: 6%;
+		}
+
+		.email-button {
+			font-size: 0.8rem;
+		}
+
+		.claim {
+			font-size: 0.7rem;
+		}
+
+		.copyright {
+			bottom: 2%;
+		}
+	}
+
+	@include breakpoint(small2) {
+		li {
+			padding: 0 3px;
+		}
+		
+		hr {
+			display: block;
+		}
+
+		.subtitle {
+			font-size: 0.7rem;
+		}
+
+		.title {
+			font-size: 2.2rem;
+		}
+
+		.content {
+			width: 80%;
+			margin-bottom: 7%;
+		}
+
+		.email-button {
+			padding: 1% 4%;
+			margin-bottom: 0;
+		}
+
+		.contact-social-icons {
+			display: block;
+			margin-bottom: 10%;
+		}
+
+		.claim {
+			font-size: 0.6rem;
+		}
+
+		.copyright {
+			font-size: 0.6rem;
+			bottom: 2%;
+		}
+	}
+}

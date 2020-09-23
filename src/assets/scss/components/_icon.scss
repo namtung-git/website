@@ -1,0 +1,99 @@
+
+/* Icon SCSS */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+		font-size: 1.2rem;
+
+
+		> .label {
+			display: none;
+		}
+
+		&.alt {
+			&:before {
+				background-color: _palette(fg-medium);
+				border-radius: 100%;
+				color: _palette(bg);
+				display: inline-block;
+				height: 2rem;
+				line-height: 2.1rem;
+				text-align: center;
+				width: 2rem;
+				transition-delay: 2s;
+				transition-duration: 2s;
+				transition-timing-function: ease-in-out;
+			}
+		}
+
+		&.alt2 {
+			&:before {
+				background-color: _palette(banner3);
+				opacity: 0.7;
+				border-radius: 100%;
+				color: _palette(banner7);
+				display: inline-block;
+				height: 2rem;
+				line-height: 2.1rem;
+				text-align: center;
+				width: 2rem;
+				transition-delay: 2s;
+				transition-duration: 2s;
+				transition-timing-function: ease-in-out;
+			}
+		}
+	}
+
+	a.icon {
+		&.alt {
+			&:before {
+				@include vendor('transition', 
+					'background-color #{_duration(transition)} ease-in'
+				);
+			}
+
+			&:hover {
+				bottom: .5rem;
+				
+				&:before {
+					@include vendor('transition', 
+					'background-color #{_duration(transition)} ease-in'
+					);
+					background-color: _palette(fg);
+				}
+			}
+
+			&:active {
+				&:before {
+					@include vendor('transition', 
+					'background-color #{_duration(transition)} ease-in'
+					);
+					background-color: _palette(fg);
+				}
+			}
+		}
+
+		&.alt2 {
+			&:before {
+				@include vendor('transition', 
+					'background-color #{_duration(transition)} ease-in-out'
+				);
+			}
+
+			&:hover {
+				&:before {
+					background-color: _palette(banner5);
+					opacity: 1;
+				}
+			}
+
+			&:active {
+				&:before {
+					background-color: _palette(banner5);
+					opacity: 1;
+				}
+			}
+		}
+	}

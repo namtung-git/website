@@ -1,0 +1,397 @@
+
+/* Work Section SCSS */
+
+#work {
+    padding: 8% 15% 5%;
+    background-image: url("../images/project-bg.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px _palette(moss) inset;
+    text-align: center;
+    cursor: default;
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    .row {
+        margin-bottom: 15%;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    li {
+        display: inline;
+        color: _palette(accent7);
+        font-family: _font(code);
+        font-weight: 300;
+        font-size: 0.8rem;
+
+        &.right {
+            padding-left: 1.5rem;
+        }
+        
+        &.left {
+            padding: 0 1.5rem  0 0;
+        }
+    }
+
+    .title {
+        font-size: 2rem;
+        color: _palette(accent7);
+        text-transform: uppercase;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+    }
+
+    .vertical-line {
+        font-size: 2.5rem;
+        margin-bottom: 4%;
+        color: _palette(accent7);
+    }
+
+    .description {
+        position: absolute;
+        width: 35%;
+        
+        &.right {
+            text-align: right;
+            right: 15%;
+        }
+
+        &.left {
+            text-align: left;
+            left: 15%;
+        }
+
+        &:hover {
+            cursor: default;
+        }
+    }
+
+    .category {
+        font-family: _font(code);
+        color: _palette(project1);
+        font-weight: 200;
+        font-size: 0.9rem;
+        line-height: 1;
+    }
+
+    .name {
+        font-size: 2.2rem;
+        margin-bottom: 0.3rem;
+        letter-spacing: 2px;
+    }
+
+    .details {
+        background-color: _palette(blk);
+        font-size: 0.95rem;
+        margin-bottom: 4%;
+        border-radius: 3px;
+        box-shadow: 0 0 5px _palette(moss);
+        transition: 0.3s ease-in-out;
+
+        &.right {
+            padding: 3% 3% 3% 1%;
+        }
+
+        &.left {
+            padding: 3% 1% 3% 3%;
+        }
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    /* Work Section Media Breakpoints */
+    @include breakpoint(medium) {
+
+        .title {
+            font-size: 1.8rem;
+        }
+
+        .vertical-line {
+            font-size: 2rem;
+        }
+
+        .description {
+            display: none;
+        }
+    }
+
+    @include breakpoint(small2) {
+
+        .title {
+            font-size: 1.5rem;
+        }
+
+        .vertical-line {
+            font-size: 1.8rem;
+        }
+    }
+
+    @include breakpoint(xsmall) {
+
+        .title {
+            font-size: 1.4rem;
+        }
+
+        .vertical-line {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+#work {
+
+    background-image: url("../images/work2.png");
+
+    height: 200vh;
+    cursor: default;
+    position: relative;
+
+
+    .work-content {
+        position: absolute;
+        width: 80%;
+        height: 85%;
+        top: 150px;
+        left: 10%;
+    }
+
+    header {
+        position: absolute;
+        width: 80%;
+        top: 5em;
+        left: 7em;
+
+        h1 {
+            position: absolute;
+            font-size: 2.5vw;
+        }
+
+        i {
+            letter-spacing: 0;
+            font-weight: lighter;
+        }
+    }
+
+    .project {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 26%;
+
+        &.s-2{
+            top: 35%;
+        }
+
+        &.s-3{
+            top: 70%;
+        }
+        
+        .project-image {
+            position: absolute;
+            width: 55%;
+            height: 100%;
+
+            &.left {
+                top: 0;
+            }
+
+            &.right {
+                top: 0;
+                right: 0;
+            }
+    
+            img {
+                @include vendor('transition','filter #{_duration(project)} ease-in-out');
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 100%;
+                height: 100%;
+
+            }
+        } 
+
+    
+        .project-desc {
+            position: absolute; 
+            width: 50%;
+            height: 100%;
+            color: _palette(fg);
+            z-index: 1;
+            
+
+            &.left{
+                top: 0;
+                right: 0;
+                text-align: right;
+            }
+
+            &.right {
+                top: 0;
+                left: 0;
+                text-align: left;
+            }
+
+            .title {
+                position: absolute;
+
+                &.left {
+                    right: 3%;
+                }
+
+                &.right {
+                    left: 3%;
+                }
+                
+
+                &.feature {
+                    top: 5%;
+                    font-size: 1rem;
+                    font-weight: lighter;
+                    color: _palette(project1);
+                }
+
+                &.name {
+                    top: 12%;
+                    font-size: 1.5rem;
+                }
+            }
+
+            .details-both {
+                position: absolute;
+                top: 30%;
+                font-size: 1rem;
+                padding: 3%;
+                background-color: #849484;
+                min-height: 40%;
+                max-height: 45%;
+                width: 100%;
+            }
+
+            .tech-list {
+                position: absolute;
+                top: 76%;
+                color: _palette(fg);
+
+                &.left{
+                    right: 3%;
+                }
+
+                &.right{
+                    left: 3%;
+                }
+            }
+        }
+    }
+    
+}
+
+
+@media only screen and (max-width: 1190px) {
+    #work{
+        .project {
+            height: 24%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    #work{
+        .project {
+            height: 22%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #work {
+        height: 300vh;
+        .project {
+            height: 23.5%;
+
+            .project-image {
+                width: 100%;
+    
+                &.right {
+                    left: 0;
+                }
+            }
+    
+            .project-desc {
+                display: none;
+                visibility: hidden;
+            }
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #work{
+        height: 300vh;
+        .project {
+            height: 21%;
+        }
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    #work{
+        height: 250vh;
+        .project {
+            height: 23%;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #work{
+        height: 200vh;
+        .project {
+            height: 25%;
+        }
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    #work{
+        height: 100vh;
+        .project {
+            height: 21%;
+        }
+    }
+}
+//For Mobile Phones
+@media only screen and (max-width: 420px) {
+    #work{
+        height: 130vh;
+        .project {
+            height: 23%;
+        }
+    }
+}
+
+
+ */
