@@ -1,9 +1,35 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import useWindowSize from '@rehooks/window-size';
 
 
-class Project extends React.Component {
+const Project = (props) => (
+    <Carousel id="project">
+        <Carousel.Item>
+            <img
+                className="d-block w-100 project-image"
+                src={this.props.image1}
+                alt="First slide"
+            />
+        </Carousel.Item>
+        <Carousel.Item>
+            <img
+                className="d-block w-100 project-image"
+                src={this.props.image2}
+                alt="Second slide"
+            />
+        </Carousel.Item>
+        <Carousel.Item>
+            <img
+                className="d-block w-100 project-image"
+                src={this.props.image3}
+                alt="Third slide"
+            />
+        </Carousel.Item>
+    </Carousel>
+)
+
+
+/* class Project extends React.Component {
     constructor(props) {
         super(props);
         this.state = {windowWidth: window.innerWidth};
@@ -88,6 +114,6 @@ class Project extends React.Component {
             );
         }
     }
-}
+} */
 
 export default Project

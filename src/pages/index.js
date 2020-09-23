@@ -14,19 +14,16 @@ import roundAva from '../assets/images/avatar-xs.png'
 import proj1a from '../assets/images/project1a.png'
 import proj1b from '../assets/images/project1b.png'
 import proj1c from '../assets/images/project1c.png'
-import desc1 from '../assets/images/project3d.png'
 
 //Project 2
 import proj2a from '../assets/images/project2a.png'
 import proj2b from '../assets/images/project2b.png'
 import proj2c from '../assets/images/project2c.png'
-import desc2 from '../assets/images/project3d.png'
 
 //Project 3
 import proj3a from '../assets/images/project3a.png'
 import proj3b from '../assets/images/project3b.png'
 import proj3c from '../assets/images/project3c.png'
-import desc3 from '../assets/images/project3d.png'
 
 
 class HomeIndex extends React.Component {
@@ -97,7 +94,7 @@ class HomeIndex extends React.Component {
                             {/* Project 1 */}
                             <div className="row">
                                 <div className="col-lg-7">
-                                    <Project image0={desc1} image1={proj1a} image2={proj1b} image3={proj1c}></Project>
+                                    <Project image1={proj1a} image2={proj1b} image3={proj1c}></Project>
                                 </div>
                                 <div className="description right">
                                     <h2 className="category">UI Design Project</h2>
@@ -117,7 +114,7 @@ class HomeIndex extends React.Component {
                             {/* Project 2 */}
                             <div className="row">
                                 <div className="col-lg-7 offset-lg-5">
-                                    <Project image0={desc2} image1={proj2a} image2={proj2b} image3={proj2c}></Project>
+                                    <Project image1={proj2a} image2={proj2b} image3={proj2c}></Project>
                                 </div>
                                 <div className="description left">
                                     <h2 className="category">Research Project</h2>
@@ -139,7 +136,7 @@ class HomeIndex extends React.Component {
                             {/* Project 3 */}
                             <div className="row">
                                 <div className="col-lg-7">
-                                    <Project image0={desc3} image1={proj3a} image2={proj3b} image3={proj3c}></Project>
+                                    <Project image1={proj3a} image2={proj3b} image3={proj3c}></Project>
                                 </div>
                                 <div className="description right">
                                     <h2 className="category">Team Project</h2>
