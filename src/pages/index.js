@@ -6,7 +6,7 @@ class HomeIndex extends Component {
 render() {
   return (
     <div>
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <div>
         <Switch>
           <Route exact path="/" component={App} />
