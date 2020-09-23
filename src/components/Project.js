@@ -7,21 +7,21 @@ const Project = (props) => (
         <Carousel.Item>
             <img
                 className="d-block w-100 project-image"
-                src={this.props.image1}
+                src={props.image1}
                 alt="First slide"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
                 className="d-block w-100 project-image"
-                src={this.props.image2}
+                src={props.image2}
                 alt="Second slide"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
                 className="d-block w-100 project-image"
-                src={this.props.image3}
+                src={props.image3}
                 alt="Third slide"
             />
         </Carousel.Item>
