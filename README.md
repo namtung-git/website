@@ -1,1 +1,1 @@
-#Hello, this is Khe Le's Personal Website
+Khe Le's Personal Website
