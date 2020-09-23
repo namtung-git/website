@@ -2,8 +2,11 @@ module.exports = {
   siteMetadata: {
     title: "Khe's Website",
     author: "Khe Le",
-    description: "Personal Website"
+    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
   },
+  
+  pathPrefix: "/website",
+
   plugins: [
     'gatsby-plugin-react-helmet',
     {
