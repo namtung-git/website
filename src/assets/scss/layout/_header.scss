@@ -101,13 +101,14 @@
 		z-index: 2;
 	}
 
-	.vertical-line {
+	.vertical-line { // aboslute to the last social icon in the list
 		position: absolute;
-		bottom: 0;
-		right: 25%;
+		top: 100%;
+		right: 50%;
 		width: 1px;
-		height: 22%;
-		background-color: _palette(fg);
+		height: 500%;
+		background-color: _palette(fg-medium);
+		opacity: 0.6;
 	}
 
 	/* Other Overrides on Bootstrap Navbar SCSS */
@@ -172,11 +173,14 @@
 			}
 		}
 
+		ul {
+			z-index: 3;
+		}
+
 		.header-social-icons {
 			width: 7%;
 		}
 
-		/* Overrides on Bootstrap Navbar SCSS */
 		.nav-link.section-link {
 			&:hover {
 				color: _palette(accent4) !important;
@@ -185,15 +189,11 @@
 	}
 
 	@include breakpoint(small1) {
+
 		.header-social-icons {
 			width: 8%;
-			height: 60%;
+			height: 50%;
 		}
-
-		.vertical-line {
-			height: 40%;
-		}
-
 	}
 
 	@include breakpoint(small2) {

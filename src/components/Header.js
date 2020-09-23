@@ -58,12 +58,15 @@ class Header extends React.Component {
                 {/* Left Bar with Social Links */}
                 <div className="header-social-icons">
                     <ul>
+                        <li><a className="icon alt fa-file" href="https://drive.google.com/file/d/18akb1_Lpos0jD-FKMlojet2HkNwglJN-/view?usp=sharing"><span className="label">Resume</span></a></li>
                         <li><a className="icon alt fa-github" href="https://github.com/khe-le"><span className="label">GitHub</span></a></li>
                         <li><a className="icon alt fa-linkedin" href="https://www.linkedin.com/in/khe-v-le/"><span className="label">LinkedIn</span></a></li>
                         <li><a className="icon alt fa-instagram" href="https://www.instagram.com/khe_levy/?hl=en"><span className="label">Instagram</span></a></li>
-                        <li><a className="icon alt fa-youtube" href="https://www.youtube.com/channel/UCVLkEtPgGuJr2MtABha7_og"><span className="label">Youtube</span></a></li>
+                        <li>
+                            <a className="icon alt fa-youtube" href="https://www.youtube.com/channel/UCVLkEtPgGuJr2MtABha7_og"><span className="label">Youtube</span></a>
+                            <div className="vertical-line"></div>
+                        </li>
                     </ul>
-                    <div className="vertical-line"></div>
                 </div> 
             </header>
         )
