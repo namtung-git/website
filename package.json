@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty-v2",
-  "description": "Gatsby Starter - Forty V2",
+  "name": "gatsby-starter",
+  "description": "Gatsby Starter",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Khe Le",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
