@@ -27,7 +27,6 @@
     "gatsby"
   ],
   "license": "MIT",
-  "homepage": "https://khe-le.github.io/website/",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
