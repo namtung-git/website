@@ -1,22 +1,27 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 
+let windowSize = 900;
+if (typeof window !== 'undefined') {
+    windowSize =  useWindowSize();
+}
+
 class Project extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {windowWidth: window.innerWidth};
+        this.state = {windowWidth: windowSize.innerWidth};
     }
    
     handleResize = (e) => {
-        this.setState({ windowWidth: window.innerWidth });
+        this.setState({ windowWidth: windowSize.innerWidth });
     };
    
     componentDidMount() {
-        window.addEventListener("resize", this.handleResize);
+        windowSize.addEventListener("resize", this.handleResize);
     }
    
     componentWillUnmount() {
-        window.addEventListener("resize", this.handleResize);
+        windowSize.addEventListener("resize", this.handleResize);
     } 
    
     render() {
