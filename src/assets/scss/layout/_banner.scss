@@ -104,6 +104,9 @@
 
 	/* Banner Media Breakpoints */
 	@include breakpoint(small1) {
+		@include vendor('background-image', 'url("../images/banner-sm.png")');
+		background-attachment: scroll;
+		background-size: contain;
 		text-align: center;
 
 		.greeting, .intro {
@@ -121,6 +124,9 @@
 	}
 
 	@include breakpoint(small2) {
+		@include vendor('background-image', 'url("../images/banner-sm.png")');
+		background-attachment: scroll;
+		background-size: contain;
 		padding: 20% 10%;
 		
 		.name, .pitch {
