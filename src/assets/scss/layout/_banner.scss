@@ -142,6 +142,8 @@
 
 	@include breakpoint(xsmall) {
 		@include vendor('background-image', 'url("../images/banner-xs.png")');
+		background-attachment: scroll;
+		background-size: contain;
 		padding: 30% 15%;
 
 		.name, .pitch {
