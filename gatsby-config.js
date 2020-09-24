@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site. Change file to type .ico
+        icon: 'src/assets/images/favicon.ico', // This path is relative to the root of the site. Change file to type .ico
         cache_busting_mode: 'none',
       },
     },

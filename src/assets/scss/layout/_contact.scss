@@ -16,6 +16,13 @@
 		margin-right: auto;
 	}
 
+	a {
+		&:hover {
+			text-decoration: none;
+			border: none;
+		}
+	}
+
 	ul {
 		padding-left: 0;
 		margin-bottom: 5%;

@@ -18,7 +18,7 @@
 		@include vendor('transition', 'opacity #{_duration(banner)} ease');
 		@include vendor('transition-delay', '0.75s');
 		@include vendor('pointer-events', 'none');
-		background-color: _palette(banner8);
+		background-color: _palette(banner7);
 		content: '';
 		display: block;
 		position: absolute;
@@ -121,7 +121,7 @@
 	}
 
 	@include breakpoint(small2) {
-		padding: 20% 15%;
+		padding: 20% 10%;
 		
 		.name, .pitch {
 			font-size: 4.5rem;
@@ -141,6 +141,7 @@
 	}
 
 	@include breakpoint(xsmall) {
+		@include vendor('background-image', 'url("../images/banner-xs.png")');
 		padding: 30% 15%;
 
 		.name, .pitch {

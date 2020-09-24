@@ -46,6 +46,7 @@
     .title {
         font-size: 2.1rem;
         line-height: 1;
+        letter-spacing: 2px;
     }
 
     .square-avatar {
@@ -197,7 +198,7 @@
 
     @include breakpoint(xsmall) {
 
-        
+
 
         .round-avatar {
             width: 40%;

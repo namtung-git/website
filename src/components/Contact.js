@@ -20,7 +20,7 @@ const Contact = () => (
                     <li><a className="icon alt2 fa-instagram" href="https://www.instagram.com/khe_levy/?hl=en"><span className="label">Instagram</span></a></li>
                     <li><a className="icon alt2 fa-youtube" href="https://www.youtube.com/channel/UCVLkEtPgGuJr2MtABha7_og"><span  className="label">Youtube</span></a></li>
                 </ul>
-                <p className="claim">Designed & Built by Khe Le</p>
+                <a href="https://github.com/khe-le/website"><p className="claim">Designed & Built by Khe Le</p></a>
             </div>
 
             {/* Footer */}

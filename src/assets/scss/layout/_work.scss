@@ -15,7 +15,16 @@
     }
 
     .row {
-        margin-bottom: 15%;
+        margin-bottom: 12%;
+    }
+
+    a {
+        color: _palette(accent4);
+
+        &:hover {
+            text-decoration: underline solid _palette(accent4);
+            color: _palette(accent4);
+        }
     }
 
     ul {
@@ -36,6 +45,16 @@
         &.left {
             padding: 0 1.5rem  0 0;
         }
+
+        &.top {
+            padding: 1% 1.5%;
+            margin: 0 1% 0;
+            background: _palette(accent4);
+            border-radius: 7px;
+            opacity: 0.5;
+            color: _palette(banner6);
+            font-weight: 400;
+        }
     }
 
     .title {
@@ -53,17 +72,26 @@
     }
 
     .description {
-        position: absolute;
-        width: 35%;
-        
         &.right {
+            position: absolute;
+            width: 35%;
             text-align: right;
             right: 15%;
         }
 
         &.left {
+            position: absolute;
+            width: 35%;
             text-align: left;
             left: 15%;
+        }
+
+        &.top {
+            position: relative;
+            text-align: center;
+            width: 80%;
+            margin: 0 auto 4%;
+            display: none;
         }
 
         &:hover {
@@ -101,6 +129,12 @@
             padding: 3% 1% 3% 3%;
         }
 
+        &.top {
+            padding: 3%;
+            margin-bottom: 2%;
+            border-radius: 5px;
+        }
+
         &:hover {
             opacity: 0.8;
         }
@@ -108,6 +142,10 @@
 
     /* Work Section Media Breakpoints */
     @include breakpoint(medium) {
+
+        li {
+            font-size: 0.7rem;
+        }
 
         .title {
             font-size: 1.8rem;
@@ -118,11 +156,29 @@
         }
 
         .description {
-            display: none;
+            &.right {
+                display: none;
+            }
+    
+            &.left {
+                display: none;
+            }
+    
+            &.top {
+                display: block;
+            }
+        }
+
+        .details {
+            font-size: 0.9rem;
         }
     }
 
     @include breakpoint(small2) {
+        
+        li {
+            font-size: 0.6rem;
+        }
 
         .title {
             font-size: 1.5rem;
@@ -130,6 +186,14 @@
 
         .vertical-line {
             font-size: 1.8rem;
+        }
+
+        .category {
+            font-size: 0.7rem;
+        }
+    
+        .name {
+            font-size: 1.9rem;
         }
     }
 
@@ -141,6 +205,16 @@
 
         .vertical-line {
             font-size: 1.5rem;
+        }
+
+        .description {
+            &.top {
+                width: 100%;
+            }
+        }
+
+        .name {
+            font-size: 1.8rem;
         }
     }
 }
