@@ -183,7 +183,7 @@
         }
 
         .round-avatar {
-            width: 25%;
+            width: 30%;
         }
 
         .profile {
@@ -197,98 +197,13 @@
 
     @include breakpoint(xsmall) {
 
-        .profile {
-            width: 60%;
-        }
-    }
-}
-
-
-
-
-
-
-
-
-/*
-#about {
-    .about-content {
-        background-color: #fff;
-        width:100%;
-        padding: 5rem;
-    }
-
-    .container1, .container2, .container3 {
-        position: relative;
-    }
-
-    .container1 {
-        height: 10rem;
-    }
-
-    h1, .sub-header {
-        margin: 0 auto 1rem;
-        text-align: center;
-        font-size: 2.5rem;
-        color: #000;
-    }
-
-    .sub-header {
-        margin: 2rem auto 0;
-        font-size: 1.3rem;
-        text-transform: uppercase;
-        font-weight: lighter;
-        letter-spacing: 0.3rem;
-    }
-
-    hr {
-        width: 20%;
-        margin: 0 auto;
-        border-bottom: solid .1rem black;
-        margin-bottom: 2rem;
-    }
-
-    .ava {
-        float: left;
-        display: inline-block;
-        width: 30%;
-        padding-left: 6rem;
         
-        img {
-            width: 10rem;
-            height: 10rem;
+
+        .round-avatar {
+            width: 40%;
+        }
+        .profile {
+            width: 80%;
         }
     }
-
-    .desc {
-        width: 70%;
-        display: inline-block;
-        color: black;
-        font-size: 1.1rem;
-        float: right;
-    }
-
-    .profile {
-        img { 
-            width:90%;
-            display: block;
-            margin: 0 auto 2rem;
-        }
-    } 
-
-    .resume-btn {
-        background-color: _palette(blk);
-        border: none;
-        margin: 0 auto;
-        display: block;
-        font-weight: lighter;
-        box-shadow: none;
-        &:hover{
-            color: _palette(accent7);
-            box-shadow:0 0 0 2px _palette(accent7);
-        }
-
-    }
-    
 }
-*/

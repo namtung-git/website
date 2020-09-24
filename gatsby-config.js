@@ -4,9 +4,6 @@ module.exports = {
     author: "Khe Le",
     description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
   },
-  
-  pathPrefix: "/website",
-
   plugins: [
     'gatsby-plugin-react-helmet',
     {

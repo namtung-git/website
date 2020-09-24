@@ -2,7 +2,7 @@
 /* Project SCSS */
 
 #project {
-    border: 1rem solid _palette(banner6);
+    border: 0.8rem solid _palette(banner6);
     box-shadow: 0 0 10px _palette(moss);
     border-radius: 5px;
 
@@ -16,7 +16,7 @@
     .carousel-control-prev,
     .carousel-control-next,
     .carousel-indicators {
-        top: 110%;
+        top: 112%;
         bottom: initial;
     }
 

@@ -187,4 +187,21 @@
 			bottom: 2%;
 		}
 	}
+
+	@include breakpoint(xsmall) {
+		background-image: url("../images/contact-back-xs.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		.front {
+			background-size: contain;
+			background-repeat: no-repeat;
+			padding: 8% 5% 3%;
+		}
+
+		.copyright {
+			bottom: 1%;
+		}
+	}
+
 }
