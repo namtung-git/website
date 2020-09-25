@@ -106,7 +106,7 @@
 	@include breakpoint(small1) {
 		@include vendor('background-image', 'url("../images/banner-sm.png")');
 		background-attachment: scroll;
-		background-size: contain;
+		background-size: cover;
 		text-align: center;
 
 		.greeting, .intro {
@@ -124,9 +124,6 @@
 	}
 
 	@include breakpoint(small2) {
-		@include vendor('background-image', 'url("../images/banner-sm.png")');
-		background-attachment: scroll;
-		background-size: contain;
 		padding: 20% 10%;
 		
 		.name, .pitch {
@@ -149,7 +146,7 @@
 	@include breakpoint(xsmall) {
 		@include vendor('background-image', 'url("../images/banner-xs.png")');
 		background-attachment: scroll;
-		background-size: contain;
+		background-size: cover;
 		padding: 30% 15%;
 
 		.name, .pitch {

@@ -67,7 +67,7 @@ class HomeIndex extends React.Component {
                                             <h3><b>Full Name:</b> Khe Le</h3>
                                             <h3><b>School:</b> Connecticut College</h3>
                                             <h3><b>Major:</b> Computer Science</h3>
-                                            <h3><b>Expected Graduation:</b> 2024</h3>
+                                            <h3><b>Expected Graduation:</b> 2023</h3>
                                         </div>
                                         <div className="profile-column col-md-6">
                                             <h3><b>Origin:</b> Ho Chi Minh, Vietnam</h3>
@@ -179,7 +179,7 @@ class HomeIndex extends React.Component {
 
                                 {/* Description displayed at breakpoint MEDIUM */}
                                 <div className="description top">
-                                    <h2 className="category">College Final Project</h2>
+                                    <h2 className="category">School Final Project</h2>
                                     <h2 className="name">Coin Collector</h2>
                                     <p className="details top">
                                         A <a href="https://github.com/SylviaLe/Final-Project">

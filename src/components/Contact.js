@@ -24,7 +24,6 @@ const Contact = () => (
             </div>
 
             {/* Footer */}
-            <p className="copyright">© 2020 Khe Le</p>
         </div>
     </section>
 )

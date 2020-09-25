@@ -111,17 +111,17 @@
 		}
 	}
 
-	.copyright {
-		position: absolute;
-		font-size: 0.7rem;
-		color: _palette(fg);
-		letter-spacing: 1px;
-		opacity: 0.5;
-		bottom: 3%;
-		left: 0;
-		right: 0;
-		margin-bottom: 0;
-	}
+	// .copyright {
+	// 	position: absolute;
+	// 	font-size: 0.7rem;
+	// 	color: _palette(fg);
+	// 	letter-spacing: 1px;
+	// 	opacity: 0.5;
+	// 	bottom: 3%;
+	// 	left: 0;
+	// 	right: 0;
+	// 	margin-bottom: 0;
+	// }
 
 	/* Contact Media Breakpoints */
 	@include breakpoint(large) {
@@ -148,9 +148,9 @@
 			font-size: 0.7rem;
 		}
 
-		.copyright {
-			bottom: 2%;
-		}
+		// .copyright {
+		// 	bottom: 2%;
+		// }
 	}
 
 	@include breakpoint(small2) {
@@ -189,10 +189,10 @@
 			font-size: 0.6rem;
 		}
 
-		.copyright {
-			font-size: 0.6rem;
-			bottom: 2%;
-		}
+		// .copyright {
+		// 	font-size: 0.6rem;
+		// 	bottom: 2%;
+		// }
 	}
 
 	@include breakpoint(xsmall) {
@@ -206,9 +206,9 @@
 			padding: 8% 5% 3%;
 		}
 
-		.copyright {
-			bottom: 1%;
-		}
+		// .copyright {
+		// 	bottom: 1%;
+		// }
 	}
 
 }

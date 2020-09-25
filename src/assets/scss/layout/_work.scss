@@ -195,6 +195,12 @@
         .name {
             font-size: 1.9rem;
         }
+
+        .details {
+            &.top {
+                border-radius: 10px;
+            }
+        }
     }
 
     @include breakpoint(xsmall) {
