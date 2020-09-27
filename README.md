@@ -22,9 +22,9 @@ I would love to keep my website open source, as long as you give me credit when 
 
 If you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
-Also, here are some cool starters and themes from codebushi you may find useful when first building your site with Gatsby:
+Also, here are some cool [starters and themes](https://codebushi.com/gatsby-starters-and-themes/) from codebushi you may find useful when first building your site with Gatsby:
 
-[Codebushi Gatsby Starters](https://codebushi.com/gatsby-starters-and-themes/)
+
 
 
 ## 🛠 Installation & Set Up
