@@ -76,7 +76,7 @@ class HomeIndex extends React.Component {
                                             <h3><b>Email:</b> levanyenkhe@gmail.com</h3>
                                         </div>
                                     </div>
-                                    <a href="https://drive.google.com/file/d/1ahYCOi67qcbkKEutmdDIlXBSz7WQdj8Y/view?usp=sharing">
+                                    <a href="https://drive.google.com/file/d/1zIoDG4gzAP-i3VM2lO8snhFuuzdVjl4n/view?usp=sharing">
                                         <button type="button" className="cv-button btn">
                                             Download CV
                                         </button>

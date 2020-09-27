@@ -50,7 +50,7 @@ class Header extends React.Component {
                             <ScrollIntoView selector="#about"><Nav.Link className="section-link">About</Nav.Link></ScrollIntoView>
                             <ScrollIntoView selector="#work"><Nav.Link className="section-link">Work</Nav.Link></ScrollIntoView>
                             <ScrollIntoView selector="#contact"><Nav.Link className="section-link">Contact</Nav.Link></ScrollIntoView>
-                            <ScrollIntoView selector=""><Nav.Link className="resume-link" href="https://drive.google.com/file/d/1ahYCOi67qcbkKEutmdDIlXBSz7WQdj8Y/view?usp=sharing">Resume</Nav.Link></ScrollIntoView>
+                            <ScrollIntoView selector=""><Nav.Link className="resume-link" href="https://drive.google.com/file/d/1zIoDG4gzAP-i3VM2lO8snhFuuzdVjl4n/view?usp=sharing">Resume</Nav.Link></ScrollIntoView>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -58,7 +58,7 @@ class Header extends React.Component {
                 {/* Left Bar with Social Links */}
                 <div className="header-social-icons">
                     <ul>
-                        <li><a className="icon alt fa-file" href="https://drive.google.com/file/d/1ahYCOi67qcbkKEutmdDIlXBSz7WQdj8Y/view?usp=sharing"><span className="label">Resume</span></a></li>
+                        <li><a className="icon alt fa-file" href="https://drive.google.com/file/d/1zIoDG4gzAP-i3VM2lO8snhFuuzdVjl4n/view?usp=sharing"><span className="label">Resume</span></a></li>
                         <li><a className="icon alt fa-github" href="https://github.com/khe-le"><span className="label">GitHub</span></a></li>
                         <li><a className="icon alt fa-linkedin" href="https://www.linkedin.com/in/khe-v-le/"><span className="label">LinkedIn</span></a></li>
                         <li><a className="icon alt fa-instagram" href="https://www.instagram.com/khe_levy/?hl=en"><span className="label">Instagram</span></a></li>
