@@ -8,7 +8,7 @@
   www.khe-le.com
 </h1>
 <p align="center">
-  The first version of <a href="https://khe-le.com" target="_blank">khe-le.netlify.app</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The first version of <a href="https://khe-le.com" target="_blank">khe-le.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <div align="center">
   <img alt="Website Banner" src="https://drive.google.com/uc?export=view&id=1aVEd0onJAJf0xkW3nYX_tXmrbGGRSv8n" width="1000">
