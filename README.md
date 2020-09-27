@@ -14,6 +14,8 @@
   <img alt="Website Banner" src="https://drive.google.com/uc?export=view&id=1aVEd0onJAJf0xkW3nYX_tXmrbGGRSv8n" width="1000">
 </div>
 
+
+
 ## 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
