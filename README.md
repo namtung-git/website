@@ -1,4 +1,4 @@
-![Website Logo](/src/assets/images/logo-fill.png)
+![Website Logo](/src/assets/images/logo-fill.png | width = 50)
 
 <div align="center">
 
