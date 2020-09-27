@@ -53,5 +53,19 @@
    ```sh
    npm run serve
    ```
+   
+## 🎨 Color Reference
+
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Colo           | ![#e6bd8f](https://via.placeholder.com/10/e6bd8f?text=+) `#e6bd8f` |
+| Colo           | ![#ffdbb3](https://via.placeholder.com/10/ffdbb3?text=+) `#ffdbb3` |
+| Colo           | ![#a5caa5](https://via.placeholder.com/10/a5caa5?text=+) `#a5caa5` |
+| Colo           | ![#334740](https://via.placeholder.com/10/334740?text=+) `#334740` |
+| Colo           | ![#1e2925](https://via.placeholder.com/10/1e2925?text=+) `#1e2925` |
+| Colo           | ![#0c1511](https://via.placeholder.com/10/0c1511?text=+) `#0c1511` |
+| Colo           | ![#9ce4dc](https://via.placeholder.com/10/9ce4dc?text=+) `#9ce4dc` |
+
+
 
 
