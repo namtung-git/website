@@ -18,7 +18,7 @@
 
 Yes, you can fork this repo **with attribution** !
 
-I would love to keep my website open source, as long as you give me credit when to use this code for your own website. I spent significant amount of time building and designing this website, and it's also my first one, so I'm hugely proud of it! Hence, please give me proper credit by linking back to [khe-le.netlify.app](https://khe-le.netlify.app). Thank you!
+I would love to keep my website open source, as long as you give me credit when you use this code for your own website. I spent significant amount of time building and designing this website, and it's also my first one so I'm hugely proud of it! Hence, please give me proper credit by linking back to [khe-le.netlify.app](https://khe-le.netlify.app). Thank you!
 
 If you have questions about implementation, please feel free to refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
