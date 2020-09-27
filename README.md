@@ -1,9 +1,8 @@
-![Website Logo](https://drive.google.com/uc?export=view&id=114MWSJlbvIcOXzoNKaQ8Kk8XfwvMJA3l)
 
 
 
 <div align="center">
-
+  <img alt="Website Logo" src="https://drive.google.com/uc?export=view&id=114MWSJlbvIcOXzoNKaQ8Kk8XfwvMJA3l" width="100">
 </div>
 <h1 align="center">
   Netlify domain: khe-le.netlify.app
