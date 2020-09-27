@@ -60,8 +60,8 @@
 | -------------- | ------------------------------------------------------------------ |
 | Burlywood      | ![#ffdbb3](https://via.placeholder.com/10/ffdbb3?text=+) `#ffdbb3` |
 | Bisque         | ![#e6bd8f](https://via.placeholder.com/10/e6bd8f?text=+) `#e6bd8f` |
-| Lightgreen     | ![#a5caa5](https://via.placeholder.com/10/a5caa5?text=+) `#a5caa5` |
-| Darkgreen      | ![#334740](https://via.placeholder.com/10/334740?text=+) `#334740` |
+| Light green    | ![#a5caa5](https://via.placeholder.com/10/a5caa5?text=+) `#a5caa5` |
+| Dark green     | ![#334740](https://via.placeholder.com/10/334740?text=+) `#334740` |
 | Darkslate      | ![#1e2925](https://via.placeholder.com/10/1e2925?text=+) `#1e2925` |
 | Black          | ![#0c1511](https://via.placeholder.com/10/0c1511?text=+) `#0c1511` |
 | Turquoise      | ![#9ce4dc](https://via.placeholder.com/10/9ce4dc?text=+) `#9ce4dc` |
