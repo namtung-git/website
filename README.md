@@ -13,7 +13,18 @@
 <div align="center">
   <img alt="Website Banner" src="https://drive.google.com/uc?export=view&id=1aVEd0onJAJf0xkW3nYX_tXmrbGGRSv8n" width="1000">
 </div>
+https://github.com/codebushi/gatsby-starter-forty
 
+## 🚨 Forking this repo
+
+Yes, you can fork this repo **with attribution**.!
+
+I would love to keep my website open source, as long as you give me credit when to use this code for your own website. I spent significant amount of time building and designing this website. It's also my first one, so I'm hugely proud of it! So, please give me proper credit by linking back to [khe-le.netlify.app](https://khe-le.netlify.app). Thanks!
+
+If you have questions about implementation, please feel free to refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+
+Also, here are some cool starters and themes from codebushi you may find useful when first building your site with Gatsby:
+[Codebushi Gatsby Starters](https://codebushi.com/gatsby-starters-and-themes/)
 
 
 ## 🛠 Installation & Set Up
