@@ -5,7 +5,7 @@
   <img alt="Website Logo" src="https://drive.google.com/uc?export=view&id=114MWSJlbvIcOXzoNKaQ8Kk8XfwvMJA3l" width="100">
 </div>
 <h1 align="center">
-  Netlify domain: khe-le.netlify.app
+  www.khe-le.com
 </h1>
 <p align="center">
   The first version of <a href="https://khe-le.netlify.app" target="_blank">khe-le.netlify.app</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
@@ -18,7 +18,7 @@
 
 Yes, you can fork this repo **with attribution** !
 
-I would love to keep my website open source, as long as you give me credit when you use this code for your own website. I spent significant amount of time building and designing this website (also my first one ever) so I'm hugely proud of it! Sooo, please give me proper credit by linking back to [khe-le.netlify.app](https://khe-le.netlify.app). Thank you!
+I would love to keep my website open source, as long as you give me credit when you use this code for your own website. I spent significant amount of time building and designing this website (also my first one ever) so I'm hugely proud of it! Sooo, please give me proper credit by linking back to [www.khe-le.com](https://khe-le.com). Thank you!
 
 If you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
