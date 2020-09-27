@@ -14,7 +14,7 @@
   <img alt="Website Banner" src="https://drive.google.com/uc?export=view&id=1aVEd0onJAJf0xkW3nYX_tXmrbGGRSv8n" width="1000">
 </div>
 
-## 🚨 Forking this repo?
+## 🚨 Can I fork this repo?
 
 Yes, you can fork this repo **with attribution** !
 
@@ -22,9 +22,7 @@ I would love to keep my website open source, as long as you give me credit when 
 
 If you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
-Also, here are some cool [starters and themes](https://codebushi.com/gatsby-starters-and-themes/) from codebushi you may find useful when first building your site with Gatsby:
-
-
+Also, here are some cool [starters and themes](https://codebushi.com/gatsby-starters-and-themes/) from codebushi you may find useful when first building your site with Gatsby.
 
 
 ## 🛠 Installation & Set Up
