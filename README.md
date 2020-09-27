@@ -1,5 +1,7 @@
+![Website Logo](/src/assets/images/logo-fill.png)
+
 <div align="center">
-  <img alt="Logo" src="https://drive.google.com/file/d/114MWSJlbvIcOXzoNKaQ8Kk8XfwvMJA3l/view?usp=sharing” width="100" />
+
 </div>
 <h1 align="center">
   Netlify domain: khe-le.netlify.app
