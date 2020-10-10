@@ -14,18 +14,17 @@
   <img alt="Website Banner" src="https://drive.google.com/uc?export=view&id=1aVEd0onJAJf0xkW3nYX_tXmrbGGRSv8n" width="1000">
 </div>
 
-## 🚨 Can I fork this repo?
+## Forking repo
 
 Yes, you can fork this repo **with attribution** !
 
 I would love to keep my website open source, as long as you give me credit when you use this code for your own website. I spent significant amount of time building and designing this website (also my first one ever) so I'm hugely proud of it! Sooo, please give me proper credit by linking back to [www.khe-le.com](https://khe-le.com). Thank you!
 
-If you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
 Also, here are some cool [starters and themes](https://codebushi.com/gatsby-starters-and-themes/) from codebushi you may find useful when first building your site with Gatsby.
 
 
-## 🛠 Installation & Set Up
+## Installation & Set Up
 
 1. Install the Gatsby CLI
 
@@ -51,7 +50,7 @@ Also, here are some cool [starters and themes](https://codebushi.com/gatsby-star
    npm start
    ```
 
-## 🚀 Building and Running for Production
+## Building and Running for Production
 
 1. Generate a full static production build
 
@@ -65,7 +64,7 @@ Also, here are some cool [starters and themes](https://codebushi.com/gatsby-star
    npm run serve
    ```
    
-## 🎨 Color Reference
+## Color Reference
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
