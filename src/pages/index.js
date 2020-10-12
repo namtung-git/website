@@ -67,7 +67,7 @@ class HomeIndex extends React.Component {
                                             <h3><b>Full Name:</b> Khe Le</h3>
                                             <h3><b>School:</b> Connecticut College</h3>
                                             <h3><b>Major:</b> Computer Science</h3>
-                                            <h3><b>Expected Graduation:</b> 2023</h3>
+                                            <h3><b>Expected Graduation:</b> 2024</h3>
                                         </div>
                                         <div className="profile-column col-md-6">
                                             <h3><b>Origin:</b> Ho Chi Minh, Vietnam</h3>
@@ -101,7 +101,7 @@ class HomeIndex extends React.Component {
                                     <h2 className="name">MyTIN App</h2>
                                     <p className="details top">
                                         A friendly, welcoming look for the HR management web and mobile application at FPT Telecom, Vietnam. 
-                                        A video conference service is also built into the app, allowing coworkers to connect through face-to-face calls.
+                                        A video conference service is also integrated into the app, allowing coworkers to connect through face-to-face calls.
                                     </p>
                                     <ul>
                                         <li className="top">Angular</li>
@@ -121,7 +121,7 @@ class HomeIndex extends React.Component {
                                     <h2 className="name">MyTIN App</h2>
                                     <p className="details right">
                                         A friendly, welcoming look for the HR management web and mobile application at FPT Telecom, Vietnam. 
-                                        A video conference service is also built into the app, allowing coworkers to connect through face-to-face calls.
+                                        A video conference service is also integrated into the app, allowing coworkers to connect through face-to-face calls.
                                     </p>
                                     <ul>
                                         <li className="right">Angular</li>
@@ -184,10 +184,10 @@ class HomeIndex extends React.Component {
                                     <p className="details top">
                                         A <a href="https://github.com/SylviaLe/Final-Project">
                                             Python game 
-                                        </a> with rank system played using keyboard arrow keys. Built with the particular&nbsp;      
+                                        </a> with rank system played with keyboard arrow keys. Built with the particular&nbsp;      
                                         <a href="https://mcsp.wartburg.edu/zelle/python/graphics.py#:~:text=The%20library%20is%20designed%20to,Franklin%2C%20Beedle%20%26%20Associates).">
                                             graphics library by John Zelle.
-                                        </a> Climb rank by collect all coins in game and avoid traps in the shortest amount of time.
+                                        </a> Climb rank by collect all randomly generated coins and avoid traps in the shortest amount of time.
                                     </p>
                                     <ul>
                                         <li className="top">PyGame</li>
@@ -207,10 +207,10 @@ class HomeIndex extends React.Component {
                                     <p className="details right">
                                         A <a href="https://github.com/SylviaLe/Final-Project">
                                             Python game 
-                                        </a> with rank system played using keyboard arrow keys. Built with the particular&nbsp; 
+                                        </a> with rank system played with keyboard arrow keys. Built with the particular&nbsp; 
                                         <a href="https://mcsp.wartburg.edu/zelle/python/graphics.py#:~:text=The%20library%20is%20designed%20to,Franklin%2C%20Beedle%20%26%20Associates).">
                                             graphics library by John Zelle.
-                                        </a> Climb rank by collect all coins in game and avoid traps in the shortest amount of time.
+                                        </a> Climb rank by collect all randomly generated coins and avoid traps in the shortest amount of time.
                                     </p>
                                     <ul>
                                         <li className="right">PyGame</li>
