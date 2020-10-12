@@ -187,7 +187,7 @@ class HomeIndex extends React.Component {
                                         </a> with rank system played with keyboard arrow keys. Built with the particular&nbsp;      
                                         <a href="https://mcsp.wartburg.edu/zelle/python/graphics.py#:~:text=The%20library%20is%20designed%20to,Franklin%2C%20Beedle%20%26%20Associates).">
                                             graphics library by John Zelle.
-                                        </a> Climb rank by collect all randomly generated coins and avoid traps in the shortest amount of time.
+                                        </a> Climb rank by collect all generated coins and avoid traps in the shortest amount of time.
                                     </p>
                                     <ul>
                                         <li className="top">PyGame</li>
@@ -210,7 +210,7 @@ class HomeIndex extends React.Component {
                                         </a> with rank system played with keyboard arrow keys. Built with the particular&nbsp; 
                                         <a href="https://mcsp.wartburg.edu/zelle/python/graphics.py#:~:text=The%20library%20is%20designed%20to,Franklin%2C%20Beedle%20%26%20Associates).">
                                             graphics library by John Zelle.
-                                        </a> Climb rank by collect all randomly generated coins and avoid traps in the shortest amount of time.
+                                        </a> Climb rank by collect all generated coins and avoid traps in the shortest amount of time.
                                     </p>
                                     <ul>
                                         <li className="right">PyGame</li>
