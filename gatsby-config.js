@@ -19,15 +19,6 @@ module.exports = {
         cache_busting_mode: 'none',
       },
     },
-    'gatsby-plugin-sass',
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: ['/'],
-        workboxConfig: {
-          globPatterns: ['**/icon-path*']
-        },
-      },
-    },
+    'gatsby-plugin-sass
   ],
 }
