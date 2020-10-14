@@ -19,6 +19,6 @@ module.exports = {
         cache_busting_mode: 'none',
       },
     },
-    'gatsby-plugin-sass
+    'gatsby-plugin-sass'
   ],
 }
