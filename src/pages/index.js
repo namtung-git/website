@@ -179,7 +179,7 @@ class HomeIndex extends React.Component {
 
                                 {/* Description displayed at breakpoint MEDIUM */}
                                 <div className="description top">
-                                    <h2 className="category">School Final Project</h2>
+                                    <h2 className="category">College Final Project</h2>
                                     <h2 className="name">Coin Collector</h2>
                                     <p className="details top">
                                         A <a href="https://github.com/SylviaLe/Final-Project">
@@ -218,6 +218,54 @@ class HomeIndex extends React.Component {
                                     </ul>
                                 </div>
                             </div>
+
+                            <h1 className="other-title">Other projects</h1>
+                            <h1 className="other-vertical-line">|</h1>
+
+                            <div className="row">
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card">
+                                            <img className="card-img-top" src="https://drive.google.com/uc?export=view&id=1oox93HLDZyIZl74k_DiKu_7xtYTdRcLu" alt="Card cap"/>
+                                            <div className="card-body">
+                                                <h5 className="card-title">Basic Blog Website</h5>
+                                                <p className="card-text">A simple blog website that keeps track of your daily memories. Write anything and post!</p>
+                                                <p className="card-tech">
+                                                    Node&nbsp;&nbsp;Express&nbsp;&nbsp;EJS
+                                                    <span className="card-icon"><a className="icon fa-github gh" href="https://github.com/khe-le/basic-blog"><span className="label">GitHub</span></a></span>
+                                                </p>
+                                            </div> 
+                                    </div>
+                                </div>
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card">
+                                            <img className="card-img-top" src="https://drive.google.com/uc?export=view&id=1ozfjK5TxAYJSbyRZq1pCh2HCQbofbsqK" alt="Card cap"/>
+                                            <div className="card-body">
+                                                <h5 className="card-title">To Do List</h5>
+                                                <p className="card-text">Keep yourself busy and productive everyday with this to-do list built with Node.</p>
+                                                <p className="card-tech">
+                                                    Node&nbsp;&nbsp;Express&nbsp;&nbsp;EJS
+                                                    <span className="card-icon"><a className="icon fa-github gh" href="https://github.com/khe-le/todolist-v1"><span className="label">GitHub</span></a></span>
+                                                </p>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card">
+                                            <img className="card-img-top" src="https://drive.google.com/uc?export=view&id=1EiwNneyilbBb4b73H2gqKV4b5-A7j2vE" alt="Card cap"/>
+                                            <div className="card-body">
+                                                <h5 className="card-title">Simon Game</h5>
+                                                <p className="card-text">Test your memory skill with this classic Simon game built from scratch.</p>
+                                                <p className="card-tech">
+                                                    Javascript
+                                                    <span className="card-icon"><a className="icon fa-github gh" href="https://github.com/khe-le/simon-game"><span className="label">GitHub</span></a></span>
+                                                </p>
+                                            </div> 
+                                    </div>
+                                </div>
+
+
+                            </div>
+
                         </div>
                     </section>
                 </div> 

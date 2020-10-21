@@ -140,10 +140,71 @@
         }
     }
 
+    .other-title {
+        margin-top: 0;
+        font-size: 1.8rem;
+        color: _palette(accent7);
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .other-vertical-line {
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+        color: _palette(accent7);
+        line-height: 1;
+    }
+
+    .card {
+        background: _palette(banner6);
+        border-radius: 5px;
+        box-shadow: 0 0px 10px _palette(moss);
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .card-text {
+        font-size: 0.95rem;
+        margin-bottom: 5px;
+    }
+
+    .card-tech {
+        font-family: _font(code);
+        color: _palette(accent7);
+        display: inline;
+        margin-bottom: 5px;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+
+    .card-icon {
+        float: right;
+    }
+
+    .gh {
+        font-size: 1.2rem;
+        color: _palette(fg);
+        transition: 0.3s ease-in;
+        opacity: 0.6;
+
+        &:hover {
+            opacity: 1;
+            color: _palette(fg) !important;
+            text-decoration: none;
+        }
+    }
+
     /* Work Section Media Breakpoints */
     @include breakpoint(medium) {
 
-        li {
+        li, .card-tech {
             font-size: 0.7rem;
         }
 
@@ -169,14 +230,23 @@
             }
         }
 
-        .details {
+        .details, .card-text {
             font-size: 0.9rem;
         }
+
+        .other-title {
+            font-size: 1.6rem;
+        }
+
+        .other-vertical-line {
+            font-size: 1.8rem;
+        }
+
     }
 
     @include breakpoint(small2) {
         
-        li {
+        li, .card-tech {
             font-size: 0.6rem;
         }
 
@@ -200,7 +270,20 @@
             &.top {
                 border-radius: 10px;
             }
+        }        
+        
+        .other-title {
+            font-size: 1.3rem;
         }
+
+        .other-vertical-line {
+            font-size: 1.6rem;
+        }
+
+        .card-text {
+            font-size: 0.8rem;
+        }
+
     }
 
     @include breakpoint(xsmall) {
@@ -222,6 +305,20 @@
 
         .name {
             font-size: 1.8rem;
+        }
+
+        .other-title {
+            font-size: 1.2rem;
+        }
+
+        .other-vertical-line {
+            font-size: 1.3rem;
+        }
+
+        .card {
+            width: 70%;
+            margin-right: auto;
+            margin-left: auto;
         }
     }
 }
