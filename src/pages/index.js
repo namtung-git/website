@@ -256,7 +256,7 @@ class HomeIndex extends React.Component {
                                                 <h5 className="card-title">Simon Game</h5>
                                                 <p className="card-text">Test your memory skill with this classic Simon game built from scratch.</p>
                                                 <p className="card-tech">
-                                                    Javascript
+                                                    Javascript&nbsp;&nbsp;jQuery
                                                     <span className="card-icon"><a className="icon fa-github gh" href="https://github.com/khe-le/simon-game"><span className="label">GitHub</span></a></span>
                                                 </p>
                                             </div> 
