@@ -179,7 +179,7 @@ class HomeIndex extends React.Component {
 
                                 {/* Description displayed at breakpoint MEDIUM */}
                                 <div className="description top">
-                                    <h2 className="category">College Final Project</h2>
+                                    <h2 className="category">College Group Project</h2>
                                     <h2 className="name">Coin Collector</h2>
                                     <p className="details top">
                                         A <a href="https://github.com/SylviaLe/Final-Project">
@@ -202,7 +202,7 @@ class HomeIndex extends React.Component {
 
                                 {/* Description displayed at breakpoint LARGE */}
                                 <div className="description right">
-                                    <h2 className="category">College Final Project</h2>
+                                    <h2 className="category">College Group Project</h2>
                                     <h2 className="name">Coin Collector</h2>
                                     <p className="details right">
                                         A <a href="https://github.com/SylviaLe/Final-Project">
