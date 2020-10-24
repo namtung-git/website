@@ -1,9 +1,11 @@
 import React from 'react'
+import FadeInSection from './FadeInSection'
 
 const Contact = () => (
     <section id="contact">
         <div className="container-fluid">
 
+            <FadeInSection>
             {/* Contact Area */}
             <div className="front">
                 <h2 className="subtitle">What's next?</h2>
@@ -22,8 +24,9 @@ const Contact = () => (
                 </ul>
                 <a href="https://github.com/khe-le/website"><p className="claim">Designed & Built by Khe Le</p></a>
             </div>
+            </FadeInSection>
 
-            {/* Footer */}
+            {/* Empty Footer */}
         </div>
     </section>
 )

@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 import Project from '../components/Project'
+import FadeInSection from '../components/FadeInSection'
 
 /* Profile Pictures */
 import squareAva from '../assets/images/avatar-md.png'
@@ -45,9 +46,11 @@ class HomeIndex extends React.Component {
                 {/* Main Section */}
                 <div id="main">
 
+                    
                     {/* About Section */}
                     <section id="about" >
                         <div className="container-fluid">
+                            <FadeInSection>
                             <div className="row">
                                 <div className="col-lg-5">
                                      <img className="square-avatar" src={squareAva} alt="Avatar" />
@@ -83,14 +86,19 @@ class HomeIndex extends React.Component {
                                     </a>
                                 </div>
                             </div>
+                            </FadeInSection>
                         </div>
                     </section>
+                    
 
                     {/* Work Section */}
                     <section id="work">   
                         <div className="container-fluid">
+                            <FadeInSection>
                             <h1 className="title">Some projects I've built</h1>
                             <h1 className="vertical-line">|</h1>
+                            </FadeInSection>
+
 
                             {/* Project 1 */}
                             <div className="row">
@@ -109,11 +117,13 @@ class HomeIndex extends React.Component {
                                         <li className="top">Figma</li>
                                     </ul>
                                 </div>
-
+                                
+                                <FadeInSection>
                                 {/* Carousel is always displayed */}
                                 <div className="col-lg-7">
                                     <Project image1={proj1a} image2={proj1b} image3={proj1c}></Project>
                                 </div>
+                                </FadeInSection>
 
                                 {/* Description displayed at breakpoint LARGE */}
                                 <div className="description right">
@@ -131,6 +141,7 @@ class HomeIndex extends React.Component {
                                 </div>
                             </div>
 
+                            
                             {/* Project 2 */}
                             <div className="row">
 
@@ -151,10 +162,13 @@ class HomeIndex extends React.Component {
                                     </ul>
                                 </div>
 
+                                <FadeInSection>
                                 {/* Carousel is always displayed */}
                                 <div className="col-lg-7 offset-lg-5">
                                     <Project image1={proj2a} image2={proj2b} image3={proj2c}></Project>
                                 </div>
+                                </FadeInSection>
+
 
                                 {/* Description displayed at breakpoint LARGE */}
                                 <div className="description left">
@@ -173,6 +187,7 @@ class HomeIndex extends React.Component {
                                     </ul>
                                 </div>
                             </div>
+
 
                             {/* Project 3 */}
                             <div className="row">
@@ -195,10 +210,12 @@ class HomeIndex extends React.Component {
                                     </ul>
                                 </div>
 
+                                <FadeInSection>
                                 {/* Carousel is always displayed */}
                                 <div className="col-lg-7">
                                     <Project image1={proj3a} image2={proj3b} image3={proj3c}></Project>
                                 </div>
+                                </FadeInSection>
 
                                 {/* Description displayed at breakpoint LARGE */}
                                 <div className="description right">
@@ -219,9 +236,12 @@ class HomeIndex extends React.Component {
                                 </div>
                             </div>
 
+                            <FadeInSection>
                             <h1 className="other-title">Other projects</h1>
                             <h1 className="other-vertical-line">|</h1>
+                            </FadeInSection>
 
+                            <FadeInSection>
                             <div className="row">
                                 <div className="col-sm-6 col-lg-4">
                                     <div className="card">
@@ -262,12 +282,11 @@ class HomeIndex extends React.Component {
                                             </div> 
                                     </div>
                                 </div>
-
-
                             </div>
-
+                            </FadeInSection>
                         </div>
                     </section>
+                    
                 </div> 
             </Layout>
         )
