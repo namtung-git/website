@@ -40,13 +40,13 @@ Also, here are some cool [starters and themes](https://codebushi.com/gatsby-star
 3. Install dependencies
 
    ```sh
-   yarn
+   npm install
    ```
 
 4. Start the development server
 
    ```sh
-   npm start
+   gatsby develop
    ```
 
 ## Building and Running for Production
@@ -54,14 +54,9 @@ Also, here are some cool [starters and themes](https://codebushi.com/gatsby-star
 1. Generate a full static production build
 
    ```sh
-   npm run build
+   gatsby build
    ```
 
-1. Preview the site as it will appear once deployed
-
-   ```sh
-   npm run serve
-   ```
 
    
 ## Color Reference
