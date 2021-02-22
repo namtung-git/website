@@ -294,13 +294,39 @@ class HomeIndex extends React.Component {
                             <div className="row">
                                 <div className="col-sm-6 col-lg-4">
                                     <div className="card">
+                                            <img className="card-img-top" src="https://drive.google.com/uc?export=view&id=1XdKzix5Qhfe3BlT3GAA1UkE8Xdl17dyb" alt="Card cap"/>
+                                            <div className="card-body">
+                                                <h5 className="card-title">Dawn (Contributor)</h5>
+                                                <p className="card-text">Video-driven empathy hubs where people of diverse backgrounds can connect empathetically.</p>
+                                                <p className="card-tech">
+                                                    React&nbsp;&nbsp;Hasura&nbsp;&nbsp;GraphQL
+                                                    <span className="card-icon"><a className="icon fa-external-link ico" href="https://www.dawn.so"><span className="label">Website</span></a></span>
+                                                </p>
+                                            </div> 
+                                    </div>
+                                </div>
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card">
+                                            <img className="card-img-top" src="https://drive.google.com/uc?export=view&id=1pa1hBESnHSw-3VpA_quec8nVUv7xstd-" alt="Card cap"/>
+                                            <div className="card-body">
+                                                <h5 className="card-title">Blind Love Letters (Contributor)</h5>
+                                                <p className="card-text">Dating application that matches individuals through e-letters and personality matching algorithms.</p>
+                                                <p className="card-tech">
+                                                    React&nbsp;&nbsp;Firebase
+                                                    <span className="card-icon"><a className="icon fa-external-link ico" href="https://blindloveletters.com"><span className="label">Website</span></a></span>
+                                                </p>
+                                            </div> 
+                                    </div>
+                                </div>
+                                <div className="col-sm-6 col-lg-4">
+                                    <div className="card">
                                             <img className="card-img-top" src="https://drive.google.com/uc?export=view&id=1oox93HLDZyIZl74k_DiKu_7xtYTdRcLu" alt="Card cap"/>
                                             <div className="card-body">
                                                 <h5 className="card-title">Basic Blog Website</h5>
                                                 <p className="card-text">A simple blog website that keeps track of your daily memories. Write anything and post!</p>
                                                 <p className="card-tech">
                                                     Node&nbsp;&nbsp;Express&nbsp;&nbsp;EJS
-                                                    <span className="card-icon"><a className="icon fa-github gh" href="https://github.com/khe-le/basic-blog"><span className="label">GitHub</span></a></span>
+                                                    <span className="card-icon"><a className="icon fa-github ico" href="https://github.com/khe-le/basic-blog"><span className="label">GitHub</span></a></span>
                                                 </p>
                                             </div> 
                                     </div>
@@ -313,7 +339,7 @@ class HomeIndex extends React.Component {
                                                 <p className="card-text">Keep yourself busy and productive everyday with this to-do list built with Node.</p>
                                                 <p className="card-tech">
                                                     Node&nbsp;&nbsp;Express&nbsp;&nbsp;EJS
-                                                    <span className="card-icon"><a className="icon fa-github gh" href="https://github.com/khe-le/todolist-v1"><span className="label">GitHub</span></a></span>
+                                                    <span className="card-icon"><a className="icon fa-github ico" href="https://github.com/khe-le/todolist-v1"><span className="label">GitHub</span></a></span>
                                                 </p>
                                             </div>
                                     </div>
@@ -326,7 +352,7 @@ class HomeIndex extends React.Component {
                                                 <p className="card-text">Test your memory skill with this classic Simon game built from scratch.</p>
                                                 <p className="card-tech">
                                                     Javascript&nbsp;&nbsp;jQuery
-                                                    <span className="card-icon"><a className="icon fa-github gh" href="https://github.com/khe-le/simon-game"><span className="label">GitHub</span></a></span>
+                                                    <span className="card-icon"><a className="icon fa-github ico" href="https://github.com/khe-le/simon-game"><span className="label">GitHub</span></a></span>
                                                 </p>
                                             </div> 
                                     </div>
